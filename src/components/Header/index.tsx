@@ -1,21 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
-import { Container, Content } from './header'
+import { Container } from './header'
 
 const Header: React.FC = () => {
   return (
-    <Container>
-      <Content>
-        <Link to='/new/novocadastro'>
-          <button type="button">Novo Cadastro</button>
-        </Link>
-        <Link to='/'>
-          <button type="button">Listagem</button>
-        </Link>
-      </Content>
+   <Container>
+     <h1>Cadastro de Clientes</h1>
     </Container>
   )
 }
-
 export default Header;
